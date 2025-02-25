@@ -1,6 +1,7 @@
 const color= "\x1b[1;35m";
 const underline= "\x1b[94;4m";
 const normal= "\x1b[0m";
+/*
 export const introMessage = [
 	"+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+",
 	"|                                                                             |",
@@ -28,6 +29,14 @@ export const introMessage = [
 	"     vim examples/c/helloworld.c",
 	"     curl --max-time 15 parrot.live  # requires networking",
 	""
+];
+*/
+export const introMessage = [
+	"+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+",
+	"|                                                                             |",
+	"| WebVM is a virtual Linux environment running in the browser via WebAssembly |",
+	"|                                                                             |",
+	"+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+"
 ];
 export const errorMessage = [
 	color + "CheerpX could not start" + normal,
