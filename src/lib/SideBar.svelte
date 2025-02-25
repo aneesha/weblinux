@@ -9,6 +9,7 @@
 	import DiscordTab from './DiscordTab.svelte';
 	import GitHubTab from './GitHubTab.svelte';
 	import { cpuActivity, diskActivity, aiActivity } from './activities.js';
+/*
 	const icons = [
 		{ icon: 'fas fa-info-circle', info: 'Information', activity: null },
 		{ icon: 'fas fa-wifi', info: 'Networking', activity: null },
@@ -20,6 +21,7 @@
 		{ icon: 'fab fa-discord', info: 'Discord', activity: null },
 		{ icon: 'fab fa-github', info: 'GitHub', activity: null },
 	];
+*/
 	const icons = [
 		{ icon: 'fas fa-info-circle', info: 'Information', activity: null }
 	];
