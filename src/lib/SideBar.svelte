@@ -20,6 +20,9 @@
 		{ icon: 'fab fa-discord', info: 'Discord', activity: null },
 		{ icon: 'fab fa-github', info: 'GitHub', activity: null },
 	];
+	const icons = [
+		{ icon: 'fas fa-info-circle', info: 'Information', activity: null }
+	];
 	let activeInfo = null; // Tracks currently visible info.
 	let hideTimeout = 0; // Timeout for hiding info panel.
 
