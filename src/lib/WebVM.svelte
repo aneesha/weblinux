@@ -591,10 +591,11 @@
 			return new Error("Error: Invalid tool syntax");
 		}
 	}
+//<Nav />
 </script>
 
 <main class="relative w-full h-full">
-	<Nav />
+	
 	<div class="absolute top-10 bottom-0 left-0 right-0">
 		<SideBar on:connect={handleConnect} on:reset={handleReset} handleTool={handleTool}>
 			<slot></slot>
